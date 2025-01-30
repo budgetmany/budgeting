@@ -84,3 +84,9 @@ const ActivityTracker = () => {
 };
 
 export default ActivityTracker;
+
+// Add this at the end of app.js
+ReactDOM.render(
+  <ActivityTracker />,
+  document.getElementById('root')
+);
